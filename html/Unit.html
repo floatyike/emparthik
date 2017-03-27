@@ -64,12 +64,20 @@
     var clicked = false;
     //移动距离数组
     var distances=[];
-    for(var i=0;i<5;i++ ){
+    /*for(var i=0;i<5;i++ ){
+        console.log($('#mainContent').width())
+        console.log($('.show0').eq(i).width())
+        console.log($('.show0:eq('+i+')').width())
         var dist=$('#mainContent').width() - right - $('.show0').eq(i).width();
         distances.push(dist);
-    }
-        function right() {
+    }*/
+//    console.log(distances);
+
+        function rights() {
             for(var i=0;i<5;i++ ){
+
+                var dist=$('#mainContent').width() - right - $('.show0').eq(i).width();
+                distances.push(dist);
                 $('.show0').eq(i).css({left:distances[i] + 'px'});
             }
         }
@@ -116,7 +124,7 @@
             $('.show0:eq(2)').css({left:dist3 + 'px'});
             $('.show0:eq(3)').css({left:dist4 + 'px'});
             $('.show0:eq(4)').css({left:dist5 + 'px'});*/
-            right();
+            rights();
         }
         event.preventDefault &&　event.preventDefault();
         return false;
@@ -199,7 +207,7 @@
             $('.show0:eq(2)').css({left:dist3 + 'px'});
             $('.show0:eq(3)').css({left:dist4 + 'px'});
             $('.show0:eq(4)').css({left:dist5 + 'px'});*/
-            right();
+            rights();
         }
         $('.show1').eq(i).stop().fadeIn().siblings().stop().hide();
 //        details?$('.showDtl').eq(i).stop(true).fadeIn(1000).siblings().stop(true).fadeOut(1000):'';
