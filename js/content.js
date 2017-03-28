@@ -14,24 +14,24 @@ $(function () {
 
     var shFirst=true;
     var activeIndex=$('.active').index();
-        // console.log(activeIndex);
+    //弹框显示
     var enter=function (title) {
-        console.log('entering');
-        $('#content').stop().hide();
+
         if(shFirst){
             shFirst=false;
-            $('#content').stop().delay(2600).fadeIn(1000);
+            $('#content').stop().delay(2000).fadeIn(1000);
             // $('#footer').fadeOut(500).delay(1000).fadeIn(500);
         }else{
             $('#content').stop().delay(2000).fadeIn(1000);
             // $('#footer').fadeOut(500).delay(1000).fadeIn(500);
         }
-        $('#mainContent').load('html/'+pages[title]+'.html');
-    }
 
+        $('#mainContent').load('html/'+pages[title]+'.html');
+    };
+
+    //底部导航切换事件
     $('#nav .show').on('click',function () {
         $(this).addClass('active').siblings().removeClass('active');
-        // 控制进入
 
         //导航切换
         ($('#container-navs ').children().length>1)?$('#container-navs li:last-child').remove():'';
@@ -45,13 +45,8 @@ $(function () {
 
         var currentIndex=$(this).index();
 
-        /*if(currentIndex==activeIndex){
-            return;
-        }
-        if(currentIndex==props.index){
-            return;
-        }*/
         switchFocus(currentIndex);
+
         //切换弹框内容
         ((currentIndex!=activeIndex)&&(currentIndex!=props.index)) ? enter(title):'';
 
@@ -62,7 +57,7 @@ $(function () {
     var shut=function () {
         console.log('shutting');
         $('#container-nav').stop().fadeOut(100);
-        $('#content').stop().fadeOut(100);
+        $('#content').stop().fadeOut(500);
         $('.show').removeClass('active');
         $('#footer').fadeOut(500).delay(1000).fadeIn(1500);
         onLeave();

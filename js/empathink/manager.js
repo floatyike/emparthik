@@ -268,6 +268,8 @@ function onMouseDown(event){
         camera.movingTo(mainLoc);
         preCamLoc.x = mainLoc.x;
         preCamLoc.y = mainLoc.y;
+
+        //底部导航切换
         $('footer').delay(2000).fadeIn(1000);
     }
 }
@@ -361,7 +363,6 @@ function onFollow(index){
 
     $('#mainContent').load('html/'+alerts[props.index]);
 
-    // $('.show').eq(props.index).addClass('active').siblings().removeClass('active');
 
     $('#footer').fadeOut(500).delay(1000).fadeIn(1500);
 
@@ -410,6 +411,9 @@ function switchFocus(index){
     parentHolder.unrotate();
     onFollow(index);
     props.index = index;
+
+    //弹框内容切换
+    $('#content').hide();
 }
 
 

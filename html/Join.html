@@ -48,25 +48,30 @@
         '弓箭手1年以上':'html/join/all03-3.html',
         '弓箭手2-3年':'html/join/all04-4.html'
     };
+    //默认加载页面
     $('.jDetail').load('html/join/all-1.html');
+    //切换加载
     var change=function () {
         $(this).siblings().removeClass('active');
         $(this).addClass('active');
         var option=$('#category li.active').text()+$('#dates li.active').text();
         //加载
         $('.jDetail').load(load[option]);
-    }
+    };
+
     $('#category').on('click','.showCtg',change);
     $('#dates').on('click','.showCtg',change);
+    //招聘导航显示
     $('.jDetail').on('click','.JShow',function () {
         $(this).parent().siblings().fadeIn();
     });
     $('.jDetail').on('click','.shut',function () {
         $(this).parent().fadeOut();
     });
+
+    //固定显示
     $('#content').scroll(function () {
         var scrolld=$('#content').scrollTop()+166;
-//        console.log(scrolld);
         $('#jAside').css('top',scrolld);
     })
 

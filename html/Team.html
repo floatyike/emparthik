@@ -37,28 +37,23 @@
     </div>
 </article>
 <script>
+    //固定title
     $('#content').scroll(function () {
         var scrolld=$('#content').scrollTop()+200;
-//        console.log(scrolld);
         $('#aAside').css('top',scrolld);
-    })
+    });
+    //鼠标悬停切换内容
     $('.showtS').on('mouseenter',function () {
 
         var i=$(this).index();
-//fadeIn()与fadeOut() 前加stop()防止切换时动画不正常
         $('.tItr').eq(i).stop().fadeIn(300).siblings().stop().fadeOut(300);
-//        $('.tItr').eq(i).fadeIn().siblings().fadeOut();
     });
     $('.showt').on('mouseover',function () {
-//        $('.tItr').eq(6).hide();
-//        $(this).toggleClass('showsC');
         var i=$(this).index()+2;
-//        $('.tItr').eq(i).fadeIn().siblings().hide();
         $('.tItr').eq(i).stop().fadeIn(300).siblings().stop().fadeOut(100);
     });
-//    $('#introduce').on('mouseover',function () {
+    //移除显示团队的简介
     $('.showsC').on('mouseout',function () {
-//        $('.tItr').eq(6).fadeIn().siblings().hide();
         $('.tItr').eq(6).stop().fadeIn(300).siblings().stop().fadeOut(100);
     });
 </script>

@@ -62,23 +62,12 @@
     var right = 50;
     var animating = false;
     var clicked = false;
-    //移动距离数组
-    var distances=[];
-    /*for(var i=0;i<5;i++ ){
-        console.log($('#mainContent').width())
-        console.log($('.show0').eq(i).width())
-        console.log($('.show0:eq('+i+')').width())
-        var dist=$('#mainContent').width() - right - $('.show0').eq(i).width();
-        distances.push(dist);
-    }*/
-//    console.log(distances);
-
+        //动画距离右侧距离
         function rights() {
             for(var i=0;i<5;i++ ){
 
                 var dist=$('#mainContent').width() - right - $('.show0').eq(i).width();
-                distances.push(dist);
-                $('.show0').eq(i).css({left:distances[i] + 'px'});
+                $('.show0').eq(i).css({left:dist + 'px'});
             }
         }
     var box1 = document.getElementById("asideS");
@@ -110,20 +99,9 @@
                 index=5;
                 --index;
                 mouseScroll(index);
-
             }
         }
         if(clicked){
-            /*var dist1 = $('#mainContent').width() - right - $('.show0:eq(0)').width();
-            var dist2 = $('#mainContent').width() - right - $('.show0:eq(1)').width();
-            var dist3 = $('#mainContent').width() - right - $('.show0:eq(2)').width();
-            var dist4 = $('#mainContent').width() - right - $('.show0:eq(3)').width();
-            var dist5 = $('#mainContent').width() - right - $('.show0:eq(4)').width();
-            $('.show0:eq(0)').css({left:dist1 + 'px'});
-            $('.show0:eq(1)').css({left:dist2 + 'px'});
-            $('.show0:eq(2)').css({left:dist3 + 'px'});
-            $('.show0:eq(3)').css({left:dist4 + 'px'});
-            $('.show0:eq(4)').css({left:dist5 + 'px'});*/
             rights();
         }
         event.preventDefault &&　event.preventDefault();
@@ -148,8 +126,8 @@
         /*$('#container-navs li:eq(2)').remove();
         $('#container-navs').append('<li><small>>> </small><span>'+$(this).text()+'</span></li>');*/
         $('#back').fadeIn(1000);
-
-        $('#cover').fadeIn(1000);
+        //遮罩
+        $('#cover').fadeIn(2000);
         //简介消失
         $('#smipleItr').fadeOut();
         $('#title0').fadeOut();
@@ -159,17 +137,18 @@
         details=true;
         $('#details').fadeIn();
 
-        /*var dist1 = $('#mainContent').width() - right - $('.show0:eq(0)').width();
+        var dist1 = $('#mainContent').width() - right - $('.show0:eq(0)').width();
         var dist2 = $('#mainContent').width() - right - $('.show0:eq(1)').width();
         var dist3 = $('#mainContent').width() - right - $('.show0:eq(2)').width();
         var dist4 = $('#mainContent').width() - right - $('.show0:eq(3)').width();
-        var dist5 = $('#mainContent').width() - right - $('.show0:eq(4)').width();*/
+        var dist5 = $('#mainContent').width() - right - $('.show0:eq(4)').width();
         animating = true;
-        $('.show0:eq(0)').delay(1000).animate({left:distances[0] + 'px'},500,'swing');
-        $('.show0:eq(1)').delay(800).animate({left:distances[1] + 'px'},500,'swing');
-        $('.show0:eq(2)').animate({left:distances[2] + 'px'},1000,'swing');
-        $('.show0:eq(3)').delay(800).animate({left:distances[3] + 'px'},500,'swing');
-        $('.show0:eq(4)').delay(1000).animate({left:distances[4] + 'px'},500,'swing',function () {
+
+        $('.show0:eq(0)').delay(1000).animate({left:dist1 + 'px'},500,'swing');
+        $('.show0:eq(1)').delay(800).animate({left:dist2 + 'px'},500,'swing');
+        $('.show0:eq(2)').animate({left:dist3+ 'px'},1000,'swing');
+        $('.show0:eq(3)').delay(800).animate({left:dist4 + 'px'},500,'swing');
+        $('.show0:eq(4)').delay(1000).animate({left:dist5 + 'px'},500,'swing',function () {
             //延迟动画
             animating = false;
             clicked = true;
@@ -188,7 +167,7 @@
         details?$('.showDtl:eq('+index+')').stop().delay(2000).fadeIn(2000).siblings().stop().hide():'';
 
     });
-
+//    鼠标移动切换内容事件
     $('#asideS').on('mouseover','li.show0',function () {
         if(animating){
             return;
@@ -197,24 +176,13 @@
         $(this).addClass('actives').siblings().removeClass('actives');
 
         if(clicked){
-            /*var dist1 = $('#mainContent').width() - right - $('.show0:eq(0)').width();
-            var dist2 = $('#mainContent').width() - right - $('.show0:eq(1)').width();
-            var dist3 = $('#mainContent').width() - right - $('.show0:eq(2)').width();
-            var dist4 = $('#mainContent').width() - right - $('.show0:eq(3)').width();
-            var dist5 = $('#mainContent').width() - right - $('.show0:eq(4)').width();
-            $('.show0:eq(0)').css({left:dist1 + 'px'});
-            $('.show0:eq(1)').css({left:dist2 + 'px'});
-            $('.show0:eq(2)').css({left:dist3 + 'px'});
-            $('.show0:eq(3)').css({left:dist4 + 'px'});
-            $('.show0:eq(4)').css({left:dist5 + 'px'});*/
             rights();
         }
         $('.show1').eq(i).stop().fadeIn().siblings().stop().hide();
-//        details?$('.showDtl').eq(i).stop(true).fadeIn(1000).siblings().stop(true).fadeOut(1000):'';
-        details?$('.showDtl').eq(i).stop().fadeIn().siblings().stop().hide():'';
+        details?$('.showDtl').eq(i).stop().fadeIn(2000).siblings().stop().hide():'';
     });
 
-
+//    返回到左侧
     function back() {
         details=false;
         clicked = false;
@@ -223,7 +191,7 @@
 
         $('#triangle').css('top','60px');
         $('#smipleItr').css('top','436px');
-        $('#title0').css('marginTop','414px');
+
         $('.show0:eq(0)').css('top','200px');
         $('.show0:eq(1)').css('top','330px');
         $('.show0:eq(2)').css('top','440px');
