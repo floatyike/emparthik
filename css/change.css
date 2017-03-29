@@ -55,14 +55,7 @@ body{
     bottom:0;
     text-align: center;
     display: none;
-}
-#footer .fcover{
-    width:100%;
-    height:100%;
-    background: #fff;
-    opacity:0.3;
-    position:relative;
-    z-index: 800;
+    background-color: rgba(255,255,255,.3);
 }
 #logo{
     color:#84827f;
@@ -429,16 +422,7 @@ body{
     margin-left: 48px;
     border:1px solid #fff;
     position:relative;
-}
-#service #client .serviceSC{
-    width:100%;
-    height:340px;
-    background: #fff;
-    opacity:0.3;
-    position:absolute;
-    top: -20px;
-    left:0;
-    z-index: 1003;
+    background-color: rgba(255,255,255,.3);
 }
 .clients,.clientsd{
     width:100%;
@@ -517,17 +501,7 @@ body{
     position: relative;
     border: 1px solid #fff;
     border-radius: 6px;
-}
-#imgC{
-    width:100%;
-    height:180px;
-    border-radius: 6px;
-    position:absolute;
-    top:0;
-    left:0;
-    background: #fff;
-    opacity:.3;
-    z-index: 1002;
+    background-color: rgba(255,255,255,.3);
 }
 #introduce ul{
     position: relative;
@@ -592,16 +566,7 @@ img.showsC:hover{
     padding-left: 42px;
     padding-bottom: 300px;
     position:relative;
-}
-#jCover{
-    width:100%;
-    height:100%;
-    background: #eeedea;
-    opacity:.6;
-    position:absolute;
-    top:0;
-    left:0;
-    z-index: 1003;
+    background-color: rgba(255,255,255,.6);
 }
 .jArticle{
     margin-top:22px;

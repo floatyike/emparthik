@@ -22,7 +22,7 @@ $(function () {
             $('#content').stop().delay(2000).fadeIn(1000);
             // $('#footer').fadeOut(500).delay(1000).fadeIn(500);
         }else{
-            $('#content').stop().delay(2000).fadeIn(1000);
+            $('#content').stop().delay(1500).fadeIn(1000);
             // $('#footer').fadeOut(500).delay(1000).fadeIn(500);
         }
 
