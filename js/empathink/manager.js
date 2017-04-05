@@ -60,11 +60,11 @@ function createScene(){
         alpha: true,
         autoclear: false,
         antialias: true,
-        premultipliedAlpha: false
+        //premultipliedAlpha: false
     });
     renderer.setPixelRatio((window.devicePixelRatio)? window.devicePixelRatio : 1);
     renderer.setSize(windowWidth, windowHeight);
-    renderer.setClearColor(0x000000, 0.0);
+    renderer.setClearColor(0xE0E1DF, 0.0);
 
     // 创建一个Camera对象, 封装了THREE.PerspectiveCamera
     // 其中camera.obj是摄像机本身
@@ -121,7 +121,7 @@ function createPostProcessing(){
 
     // 添加精神效果
     postProcessing.bokehQuad = new THREE.Mesh( new THREE.PlaneBufferGeometry( window.innerWidth, window.innerHeight ), postProcessing.materialBokeh );
-    postProcessing.bokehQuad.position.z = - 500;
+    //postProcessing.bokehQuad.position.z = -500;
     postProcessing.bokehScene.add( postProcessing.bokehQuad );
 }
 
@@ -191,6 +191,8 @@ function animate(){
 
     if(postProcessing.enabled) {        // 选中对象时会开启后处理效果, 即景深Shader
         scene.overrideMaterial = null;
+        // renderer.setRenderTarget(postProcessing.rtTextureColor);
+        // renderer.setRenderTarget(postProcessing.rtTextureDepth);
         renderer.clear();
         renderer.render(scene, camera.obj, postProcessing.rtTextureColor, true);
         scene.overrideMaterial = matDepth;
@@ -343,7 +345,7 @@ function onFollow(index){
     obj.rotateToCam(angle);
     setTimeout(function(){                          // 延迟开启后处理模式
         var focus = intersected.getFocus();
-        // postProcessing.enabled = true;
+        postProcessing.enabled = true;
         postProcessing.bokeh_uniforms['focalDepth'].value = 60;
         postProcessing.bokeh_uniforms['focalLength'].value = 20;
         postProcessing.bokeh_uniforms['focusCoords'].value.set(focus.x, focus.y);
