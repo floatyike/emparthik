@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4def5859-1263-4094-9bf4-e671e60558be" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/UnitOld.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/change.css" afterPath="$PROJECT_DIR$/css/change.css" />
     </list>
     <ignored path="Aviator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +28,48 @@
       <file leaf-file-name="manager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/empathink/manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9108">
-              <caret line="414" column="12" lean-forward="false" selection-start-line="414" selection-start-column="12" selection-end-line="414" selection-end-column="12" />
+            <state relative-caret-position="1008">
+              <caret line="400" column="20" lean-forward="true" selection-start-line="400" selection-start-column="8" selection-end-line="400" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Unit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Unit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-862">
+              <caret line="118" column="36" lean-forward="true" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="change.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/change.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="481" column="0" lean-forward="false" selection-start-line="481" selection-start-column="0" selection-end-line="486" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,8 +78,8 @@
       <file leaf-file-name="empathink.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/empathink.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+            <state relative-caret-position="450">
+              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="24" />
               <folding>
                 <element signature="e#735#741#0" expanded="true" />
               </folding>
@@ -45,22 +87,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/content.js">
+      <file leaf-file-name="Team.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="change.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/change.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12540">
-              <caret line="570" column="7" lean-forward="false" selection-start-line="570" selection-start-column="7" selection-end-line="570" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="960">
+              <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#2;n#article#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#2;n#article#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,14 +113,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$('footer')</find>
       <find>img.showsC</find>
       <find>cover</find>
       <find>#address</find>
       <find>closeD</find>
       <find>onFollow</find>
       <find>#asideR</find>
-      <find>#STitle</find>
       <find>#category li</find>
       <find>.lines</find>
       <find>#back</find>
@@ -108,6 +141,8 @@
       <find>footer</find>
       <find>imgC</find>
       <find>serviceSC</find>
+      <find>content</find>
+      <find>#STitle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,8 +199,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/empathink.html" />
         <option value="$PROJECT_DIR$/html/Join.html" />
-        <option value="$PROJECT_DIR$/html/Team.html" />
         <option value="$PROJECT_DIR$/html/Service.html" />
+        <option value="$PROJECT_DIR$/html/Team.html" />
         <option value="$PROJECT_DIR$/css/change.css" />
       </list>
     </option>
@@ -181,9 +216,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -200,26 +236,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -229,11 +264,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -247,25 +282,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -275,11 +296,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Aviator 2" />
+              <option name="myItemId" value="emparthik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -290,6 +311,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -416,17 +438,18 @@
       <workItem from="1490949468665" duration="350000" />
       <workItem from="1490949841861" duration="90000" />
       <workItem from="1491029638407" duration="16000" />
+      <workItem from="1491802631419" duration="7654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="918174000" />
+    <option name="totallyTimeSpent" value="925828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16282764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1627907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -487,8 +510,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/dotwave/dotwave.js" />
-    <entry file="file://$PROJECT_DIR$/js/shader/HorizontalBlurShader.js" />
     <entry file="file://$PROJECT_DIR$/js/shader/VerticalBlurShader.js" />
     <entry file="file://$PROJECT_DIR$/js/shader/DOFShader.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -607,13 +628,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/join/all-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/empathink/manager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -630,22 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/empathink/object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7765">
-          <caret line="675" column="5" lean-forward="false" selection-start-line="675" selection-start-column="5" selection-end-line="675" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/empathink/manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9108">
-          <caret line="414" column="12" lean-forward="false" selection-start-line="414" selection-start-column="12" selection-end-line="414" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -653,70 +651,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Contact.html">
+    <entry file="file://$PROJECT_DIR$/html/About.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/Team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="428">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="536">
+          <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/join/all0-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/join/all-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Join.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="446">
+          <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/About.html">
+    <entry file="file://$PROJECT_DIR$/js/empathink/object.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="18840">
+          <caret line="675" column="5" lean-forward="false" selection-start-line="675" selection-start-column="5" selection-end-line="675" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/empathink/manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="400" column="20" lean-forward="true" selection-start-line="400" selection-start-column="8" selection-end-line="400" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Unit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="-862">
           <caret line="118" column="36" lean-forward="true" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/change.css">
+    <entry file="file://$PROJECT_DIR$/html/Team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12540">
-          <caret line="570" column="7" lean-forward="false" selection-start-line="570" selection-start-column="7" selection-end-line="570" selection-end-column="7" />
+        <state relative-caret-position="960">
+          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#2;n#article#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#2;n#article#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/UnitOld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/empathink.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="e#735#741#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/content.js">
+    <entry file="file://$PROJECT_DIR$/css/change.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="33" />
+        <state relative-caret-position="165">
+          <caret line="481" column="0" lean-forward="false" selection-start-line="481" selection-start-column="0" selection-end-line="486" selection-end-column="1" />
           <folding />
         </state>
       </provider>
